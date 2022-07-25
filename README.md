@@ -1,4 +1,7 @@
 # calorie_service
+
+Communication Contract
+
 **Before Use**
 
 
