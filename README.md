@@ -4,7 +4,7 @@
     
  
 
-**B. How to receive data: **
+**B. How to receive data:**
    calorie_service will write found calories to calories.txt as string. To receive response, the main application should read calories.txt. If calorie_service finds no information for user input from keyword.txt, then it will write 'None' to calories.txt.  The main application should clear calories.txt after reading
 
 ![UML](https://github.com/spencerlwahlstrom/calorie_service/blob/main/UML.PNG?raw=true)
