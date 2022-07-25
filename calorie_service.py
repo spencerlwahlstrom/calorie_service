@@ -12,7 +12,6 @@ def get_cals(key):
     search = requests.get(url)
     parse = bs4.BeautifulSoup(search.text, "html.parser")
     result = parse.find("div", {"class":"BNeawe iBp4i AP7Wnd"})
-    print(result)
     if result is None:
         result = parse.find("span", {"class":"FCUp0c rQMQod"})
     result = result.string if result else 'None'
@@ -23,7 +22,6 @@ def get_cals(key):
     for tag in serving_search:
         if "Serving Size: " in tag.text:
             serving = tag
-    print(serving)
     if serving:
         serving = serving.text
         serving = serving.partition("Serving Size: ")[2].partition("Amount")[0]
@@ -39,7 +37,7 @@ def get_cals(key):
 def main():
     print('listening')
     while True:
-        time.sleep(5)
+        time.sleep(3)
         with open('init_search.txt', 'r') as f:
             message = f.readline()
             if message == 'run':
@@ -50,6 +48,7 @@ def main():
                     out.write(str(result[0])+ "\n")
                     out.write(str(result[1]))
                 open('init_search.txt', 'w').close()
+                open('keyword.txt', 'w').close()
 
 
 
