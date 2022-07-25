@@ -1,7 +1,7 @@
 # calorie_service
 **Before Use**
-Must create the following txt files in directory locally for communication pipe with this naming scheme: init_search.txt, keyword.txt, calories.txt 
-Must install the following packages: requests, bs4
+**Must create the following txt files in directory locally for communication pipe with this naming scheme:** init_search.txt, keyword.txt, calories.txt 
+**Must install the following packages:** requests, bs4
 
 
 **A. How to request data:**
