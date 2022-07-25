@@ -2,8 +2,7 @@
 **Before Use**
 
 
-
-**Must create the following txt files in directory locally for communication pipe with this naming scheme:** init_search.txt, keyword.txt, calories.txt 
+**Must create the following txt files in directory locally for communication pipe with this naming scheme, they are listed in .gitignore :** init_search.txt, keyword.txt, calories.txt 
 
 
 **Must install the following packages:** requests, bs4
@@ -19,6 +18,10 @@ Calorie_service will write the found calories to line one of calories.txt, then 
 **Example Call to request and receive**
 
 ![example](https://github.com/spencerlwahlstrom/calorie_service/blob/main/example.PNG?raw=true)
+
+
+
+**UML Diagram**
 
 ![UML](https://github.com/spencerlwahlstrom/calorie_service/blob/main/UML.PNG?raw=true)
 
