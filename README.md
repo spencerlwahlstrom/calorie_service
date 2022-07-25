@@ -18,7 +18,7 @@ Calorie_service will write the found calories to line one of calories.txt, then 
 
 **Example Call to request and receive**
 
-![examplecall](https://github.com/spencerlwahlstrom/calorie_service/blob/main/examplecall.PNG?raw=true)
+![example](https://github.com/spencerlwahlstrom/calorie_service/blob/main/example.PNG?raw=true)
 
 ![UML](https://github.com/spencerlwahlstrom/calorie_service/blob/main/UML.PNG?raw=true)
 
